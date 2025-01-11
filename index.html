@@ -17,7 +17,7 @@
   <body>
     <!-- Navbar -->
     <div class="navbar">
-      <div class="container">
+      <div class="container flex">
         <h1 class="logo">Loruki.</h1>
         <nav>
           <ul>
@@ -28,5 +28,55 @@
         </nav>
       </div>
     </div>
+
+    <!-- Showcase -->
+    <section class="showcase grid">
+      <div class="container">
+        <!-- Showcase Text -->
+        <div class="showcase-text">
+          <h2>Easier Deployment</h2>
+          <p>
+            Deploy web apps of all kinds, from large scale enterprise APIs to
+            static websites for individuals. Fill out the form to try a demo of
+            our platform.
+          </p>
+          <a href="#" class="btn btn-outline">Read More</a>
+        </div>
+        <!-- Showcase Form -->
+        <div class="showcase-form card">
+          <form>
+            <h2>Request a Demo</h2>
+            <div class="form-control">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
