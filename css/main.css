@@ -72,3 +72,26 @@ img {
 .navbar .flex {
   justify-content: space-between;
 }
+
+/* Showcase */
+
+.showcase {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 400px;
+  position: relative;
+}
+
+.showcase h2 {
+  font-size: 40px;
+}
+
+.showcase p {
+  margin: 20px 0;
+}
+
+.showcase .grid {
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+  overflow: visibles;
+}
